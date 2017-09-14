@@ -1,0 +1,21 @@
+/* navbar */
+.navbar-default {
+    background-color: #fff;
+    border-color red;
+}
+.navbar-brand-left {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand-center {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+}
+@media (min-width : 1000px){
+    .navbar-brand-center{
+        display : none;
+    }
+ }
